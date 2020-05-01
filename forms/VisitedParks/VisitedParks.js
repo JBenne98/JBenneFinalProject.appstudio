@@ -65,6 +65,28 @@ dpdVis.onclick=function(choice){
     }
 }
 
+
+btnViewVis.onclick=function(){
+  let visParks=''
+  
+  query='SELECT * FROM visited_park'
+        
+        req=Ajax('https://ormond.creighton.edu/courses/375/ajax-connection.php', 'POST', 'host=ormond.creighton.edu&user=jgb83474&pass=Iwbn0KS@11:52&database=jgb83474&query=' + query) 
+          
+          visParks=JSON.parse(req.responseText)
+          
+          if(req.status==200){
+            let mes='All Visited Parks:'
+          
+            for(i=0;i<=visParks.length-1;i++){
+              mes=mes+'\n'+visParks[i][1]
+              txaVis.value=mes
+            }
+          } else {
+           txaVis.value=(`Error in displaying Parks`) 
+          }
+}
+
 hgbGoToVis.onclick=function(choice){
   if (typeof(choice) == "object") {
     return
@@ -88,3 +110,6 @@ hgbGoToVis.onclick=function(choice){
     }
   }
 }
+
+
+

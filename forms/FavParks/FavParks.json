@@ -117,6 +117,16 @@
         "Elements",
         "btnEnter.json"
       ]
+
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "btnView.json"
+      ]
     }
   ],
   "class": "",

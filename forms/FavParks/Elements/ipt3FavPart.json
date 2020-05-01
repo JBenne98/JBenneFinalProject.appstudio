@@ -80,7 +80,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 185,
+
+  "top": 144,
+
   "validation": "",
   "value": "",
   "valueCols": 10,

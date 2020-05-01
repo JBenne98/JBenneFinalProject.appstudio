@@ -75,6 +75,30 @@ btnDirection.onclick=function(){
 }
 
 
+
+btnView.onclick=function(){
+  let favParks=''
+
+  query='SELECT * FROM favorite_park'
+        
+        req=Ajax('https://ormond.creighton.edu/courses/375/ajax-connection.php', 'POST', 'host=ormond.creighton.edu&user=jgb83474&pass=Iwbn0KS@11:52&database=jgb83474&query=' + query) 
+          
+          favParks=JSON.parse(req.responseText)
+          
+          if(req.status==200){
+            let mes='All Favorite Parks:'
+          
+              for(i=0;i<=favParks.length-1;i++){
+                mes=mes+'\n'+favParks[i][1]+'\n'+'Rating: '+favParks[i][2]+'\n'+'Favorite Parts: '+favParks[i][3]+'\n'+'\n'
+                txaFav.value=mes
+              }
+          } else {
+           txaVis.value=(`Error in displaying Parks`) 
+          }
+}
+
+
+
 hbgGoToFav.onclick=function(choice){
   if (typeof(choice) == "object") {
    return

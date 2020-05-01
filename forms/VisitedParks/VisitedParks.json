@@ -63,6 +63,16 @@
         "Elements",
         "lblVis.json"
       ]
+
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "VisitedParks",
+        "Elements",
+        "btnViewVis.json"
+      ]
     }
   ],
   "class": "",
