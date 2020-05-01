@@ -1,0 +1,155 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "hbgGoToFav.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "imgParkFav.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "lblHeadFav.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "txaFav.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "tstFav.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "btnDirection.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "sltFav.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "iptRat.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "iptFavPart.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "ipt2FavPart.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "ipt3FavPart.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "btnEnter.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "FavParks",
+        "Elements",
+        "btnView.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 0,
+  "designWidth": 0,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 460,
+  "id": "FavParks",
+  "language": "JavaScript",
+  "left": "0",
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "FavParks.onshow()",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "absolute",
+  "script": null,
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": "0",
+  "width": 320
+}
