@@ -75,6 +75,7 @@ btnDirection.onclick=function(){
 }
 
 
+
 btnView.onclick=function(){
   let favParks=''
 
@@ -95,6 +96,7 @@ btnView.onclick=function(){
            txaVis.value=(`Error in displaying Parks`) 
           }
 }
+
 
 
 hbgGoToFav.onclick=function(choice){

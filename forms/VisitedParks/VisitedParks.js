@@ -65,6 +65,7 @@ dpdVis.onclick=function(choice){
     }
 }
 
+
 btnViewVis.onclick=function(){
   let visParks=''
   
@@ -109,4 +110,6 @@ hgbGoToVis.onclick=function(choice){
     }
   }
 }
+
+
 
